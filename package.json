@@ -1,0 +1,22 @@
+{
+  "name": "tiny-cloud-object-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangvanthanh/tiny-cloud-object-storage.git"
+  },
+  "author": "Dang Van Thanh <chieuhue@gmail.com> (dangthanh.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dangvanthanh/tiny-cloud-object-storage/issues"
+  },
+  "homepage": "https://github.com/dangvanthanh/tiny-cloud-object-storage#readme",
+  "dependencies": {
+    "ibm-cos-sdk": "^1.2.3"
+  }
+}
