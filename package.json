@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dangvanthanh/tiny-cloud-object-storage#readme",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "ibm-cos-sdk": "^1.2.3"
   }
 }

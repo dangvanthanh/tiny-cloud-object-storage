@@ -14,11 +14,9 @@ class CloudObjectStorage {
           CreateBucketConfiguration: { LocationConstraint: 'us-standard' }
         },
         (err, data) => {
-          console.log(`createBucket ${err}`);
           if (err) {
             resolve(err);
           }
-          console.log(`createBucket ${data}`);
           resolve(data);
         }
       );
@@ -28,11 +26,9 @@ class CloudObjectStorage {
   putObject(params) {
     return new Promise((resolve, reject) => {
       this.s3.putObject(params, (err, data) => {
-        console.log(`putObject ${err}`);
         if (err) {
           resolve(err);
         }
-        console.log(`putObject ${data}`);
         resolve(data);
       });
     });
